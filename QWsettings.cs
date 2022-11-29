@@ -36,7 +36,7 @@ namespace QuickWitted
 
 		[Name("Gunsmithing Rate")]
 		[Description("Multiplies the skill points recieved from completing an action")]
-		[Slider(1, 10)]
+		[Slider(0, 10)]
 		public int gunsmithingrate = 1;
 
 		[Name("Icefishing Rate")]
